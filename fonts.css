@@ -1,0 +1,228 @@
+#background-darkener{
+    background-color: rgba(0, 0, 0, 0.699);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/wave-of-particles-on-blue-background-abstract-technology-particles-mesh-background-free-vector.jpg);
+    height: 100%;
+    background-attachment: fixed;
+
+}   
+
+.fonts-header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(53, 53, 53, 0.301);
+    width: 100%;
+}
+
+
+
+.fonts-header h1{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+/* vsetko nad commentom je: horny panel na strane fonts nadpis a navigacia*/
+
+
+.chooser-fonts{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.one-font{
+    height: 25rem;
+    width: 22rem;
+    border: solid rgb(96, 18, 185);
+    border-radius: 1rem;
+    margin: 25px;
+    background-color: rgba(121, 121, 121, 0.161);
+    box-shadow: 1px 1px 20px 10px rgba(0,0,0,0.62);
+    overflow: hidden;
+}
+
+.one-font:hover{
+    box-shadow: 1px 1px 20px 10px rgba(189, 124, 255, 0.303);
+}
+
+.chooser-fonts a{
+    color: rgb(96, 18, 185);
+    text-decoration: none;
+}
+
+.one-font h2{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.one-font h3{
+    color: aliceblue;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lower-one{
+    color: rgba(255, 255, 255, 0.932);
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.upper-one{
+    color: rgba(255, 255, 255, 0.932);
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lower-two{
+    color: rgba(255, 255, 255, 0.932);
+    margin: 10px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+
+.upper-two{
+    color: rgba(255, 255, 255, 0.932);
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+
+.lower-three{
+    color: rgba(255, 255, 255, 0.932);
+    margin: 10px;
+    font-family: 'Sigmar', cursive;
+}
+
+.upper-three{
+    color: rgba(255, 255, 255, 0.932);
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: 'Sigmar', cursive;
+    font-size: 15px;
+}
+
+.lower-four{
+    color: rgba(255, 255, 255, 0.932);
+    margin: 10px;
+    font-family: 'Castoro Titling', cursive;
+    font-size: 18px;
+}
+
+.upper-four{
+    color: rgba(255, 255, 255, 0.932);
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.lower-five{
+    color: rgba(255, 255, 255, 0.932);
+    margin: 10px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 18px;
+}
+
+.upper-five{
+    color: rgba(255, 255, 255, 0.932);
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.lower-six{
+    color: rgba(255, 255, 255, 0.932);
+    margin: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.upper-six{
+    color: rgba(255, 255, 255, 0.932);
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.lower-seven{
+    color: rgba(255, 255, 255, 0.932);
+    margin: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    text-transform: lowercase;
+}
+
+.upper-seven{
+    color: rgba(255, 255, 255, 0.932);
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.lower-eight{
+    color: rgba(255, 255, 255, 0.932);
+    margin: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    text-transform: lowercase;
+}
+
+.upper-eight{
+    color: rgba(255, 255, 255, 0.932);
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+.lower-nine{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    font-size: 18px;
+    text-transform: lowercase;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.upper-nine{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+footer p{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
